@@ -63,7 +63,7 @@ const HTMLContent = ({
   });
   useEffect(() => {// eslint-disable-next-line react-hooks/exhaustive-deps
     inView && (document.body.style.background = bgColor);
-  }, [inView]);
+  }, [inView, bgColor]);
 
   return (
     <Section factor={1.5} offset={1}>
