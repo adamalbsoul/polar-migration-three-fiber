@@ -9,10 +9,8 @@ import state from "./components/state";
 
 // R3F & Drei
 import { Canvas, useFrame } from "react-three-fiber";
-import { Html, useProgress, useGLTFLoader } from "drei";
+import { Html, useGLTFLoader } from "drei";
 
-// React Spring
-import { a, useTransition } from "@react-spring/web";
 //Intersection Observer
 import { useInView } from "react-intersection-observer";
 
@@ -63,7 +61,7 @@ const HTMLContent = ({
   const [refItem, inView] = useInView({
     threshold: 0
   });
-  useEffect(() => {
+  useEffect(() => {// eslint-disable-next-line react-hooks/exhaustive-deps
     inView && (document.body.style.background = bgColor);
   }, [inView]);
 
@@ -88,7 +86,7 @@ const HTMLContent = ({
 };
 
 export default function App() {
-  const [events, setEvents] = useState();
+  const [events] = useState();
   const domContent = useRef();
   const scrollArea = useRef();
   const onScroll = (e) => (state.top.current = e.target.scrollTop);
