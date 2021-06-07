@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arctic Landscape Low-poly
+* source:	https://sketchfab.com/3d-models/arctic-landscape-low-poly-c9b3e44347224d79ac7c8cbec623b12d
+* author:	yinjo (https://sketchfab.com/yinjo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arctic Landscape Low-poly" (https://sketchfab.com/3d-models/arctic-landscape-low-poly-c9b3e44347224d79ac7c8cbec623b12d) by yinjo (https://sketchfab.com/yinjo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
